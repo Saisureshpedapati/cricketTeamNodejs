@@ -91,7 +91,7 @@ app.put("/players/:playerId/", async (request, response) => {
     SET
     player_name = '${playerName}',
     jersey_number = ${jerseyNumber},
-    role = '${role}';
+    role = '${role}'
     WHERE 
      player_id = ${playerId}`;
 
